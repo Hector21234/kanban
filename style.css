@@ -1,0 +1,39 @@
+#kanban{
+width: 90%;
+margin-right: auto;
+margin-left: auto;
+
+}
+
+.column{
+
+    position:relative;
+    float:left;
+    margin-left: 30px;
+    background-color: rgb(255, 255, 255, 0.6);
+    opacity:0.7;
+    border-radius: 10px;
+ padding:10px;
+}
+
+.card{
+
+    background-color: white;
+    border-radius: 10px;
+}
+.card:hover{
+
+    background-color: rgb(1, 204, 255);
+}
+main{
+   background-image: url("mountain.jpg");
+   background-size: 100%;
+   background-repeat: no-repeat;
+   height: 900px;
+}
+i{
+    position:relative;
+    float:left;
+    margin-left: 30px;
+
+}
